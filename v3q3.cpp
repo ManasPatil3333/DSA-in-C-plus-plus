@@ -2,14 +2,18 @@
 using namespace std;
 
 int main() {
-    int n, m = 0;
+    int n;
+    // int m = 0;
+    char ch = 'A';
     cout<< "Enter the number : ";
     cin>>n;
     for(int i=1; i<=n; i++) {
-        m++;
+        // m++;
         for(int j=1; j<=i; j++) {
-            cout<<m<<" ";
+            // cout<<m<<" ";
+            cout<<ch<<" ";
         }
+        ch = ch + 1;
         cout<<endl;
     }
     return 0;
